@@ -1,0 +1,76 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Serviços.com</title>
+        <link rel="stylesheet" href="Serviços.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    </head>
+    <body>
+        <section class="max-width bg" id="service">
+            <div class="container">
+                <div class="content">
+                    <div class="menu">
+                        <div class="desktop-menu">
+                            <ul>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/INDEX.html">HOME</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Sobre.html">SOBRE</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Servi%C3%A7os.html">NOSSOS SERVIÇOS</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Projeto.html">MENU</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Unidades.html">NOSSAS UNIDADES</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile-menu" onclick="myFuction()">
+                            <i class="fa-solid fa-bars color-preto"></i>
+                            <ul id="myLinks">
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/INDEX.html">HOME</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Sobre.html">SOBRE</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Servi%C3%A7os.html">NOSSOS SERVIÇOS</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Projeto.html">MENU</a></li>
+                                <li><a href="file:///C:/Users/meu%20micro/Downloads/Unidades.html">NOSSAS UNIDADES</a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="titulo">
+                        <span class="text-title color-vermelho">OFERTAS</span>
+                        <h2 class="text-md color-preto">Nossos Serviços</h2>
+                    </div>
+                    <div class="down">
+                        <div class="box" id="beb-2">
+                            <i class="fa-solid fa-bowl-food text-gd color-laranja"></i>
+                            <h2 class="color-branco">Rodízio</h2>
+                            <p></p>
+                        </div>
+                        <div class="box" id="beb-2">
+                            <i class="fa-solid fa-motorcycle text-gd color-laranja"></i>
+                            <h2 class="color-branco">Entregas Rapidas</h2>
+                            <p></p>
+                        </div>
+                        <div class="box" id="beb-2">
+                            <i class="fa-solid fa-wifi text-gd color-laranja"></i>
+                            <h2 class="color-branco">Wi-fi</h2>
+                            <p></p>
+                        </div>
+                        <div class="box" id="beb-2">
+                            <i class="fa-solid fa-utensils text-gd color-laranja"></i>
+                            <h2 class="color-branco">Serviço Empratado</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function myFuction(){
+                var x = document.getElementById("myLinks")
+                if (x.style.display === "block"){
+                    x.style.display = "none";
+                }else{
+                    x.style.display = "block"
+                }
+               }
+            </script>
+        </section>
+    </body>
+</html>

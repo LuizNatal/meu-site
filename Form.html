@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form.com</title>
+        <link rel="stylesheet" href="Formsstyles.css">
+    </head>
+    <body>
+        <h1>FORMULÁRIO HOSPITALAR</h1>
+        <form action="mailto:leedosnatal21@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                
+                  <legend>DADOS DE INTERNAÇÃO DO PACIENTE</legend>
+                    <label for="txtcpf">CPF:</label>
+                <input type="text" name="txtcpf" id="txtcpf" maxlength="11" required=""/>
+                <label for="txtemail">Email:</label>
+                <input type="text" name="txtemail" id="txtemail" maxlength="30" required=""/>
+                
+                  <label for="txtname">Nome:</label>
+                  <input type="text" name="txtname" id="txtname" maxlength="20" required=""/>
+                  <label for="txtmae">Mãe:</label>
+                  <input type="text" name="txtmae" id="txtmae" maxlength="25" required=""/>
+                  <label for="txtpai">RG:</label>
+                  <input type="text" name="txtrg" id="txtrg" maxlength="11" required/>
+                  <label for="txthor">Horario de atendimento:</label>
+                  <input type="time" name="txthor" id="txthor"/>
+                  
+                    <label for="txtdata">Data de nascimento:</label>
+                  <input type="date" name="txtdata" id="txtdata"/>
+                  <label for="txtloc">Estado em que voce nasceu:</label>
+                  <select>
+                    <option 1>SP</option>
+                    <option 2>RJ</option>
+                    <option 3>PA</option>
+                    <option 4>BA</option>
+                    <option 5>ES</option>
+                    <option 6>AC</option>
+                    <option 7>MS</option>
+                    <option 8>AL</option>
+                    <option 9>SC</option>
+                    <option 10>MS</option>
+                    <option 11>MA</option>
+                    <option 12>PB</option>
+                    <option 13>PI</option>
+                    <option 14>AM</option>
+                    <option 15>GO</option>
+                    <option 16>MT</option>
+                    <option 17>MG</option>
+                    <option 18>RN</option>
+                    <option 19>TO</option>
+                    <option 20>DF</option>
+                    <option 21>PR</option>
+                  </select>
+                  </fieldset>
+                  <fieldset>
+                  
+                <label for="txtwebmastee">Sexo:</label>
+                <input type="radio" name="txtwebmaseter" value="Feminino"/>Feminino<br />
+                <input type="radio" name="txtwebmaseter" value="Masculino"/>Masculino<br />
+                <input type="radio" name="txtwebmaseter" value="Transexual"/>Intersexual<br />
+                </fieldset>
+                <fieldset>
+                  <legend>DADOS ACADEMICOS DO MEDICO</legend>
+                  <label for="txtwebmastee">Especialidade:</label>
+                <input type="checkbox" name="webmaseter" value="Jovem"/>Neorocirugiao<br/>
+                <img src="img/bolo de chocolate.jpg" width="180" height="60"/>
+                <input type="checkbox" name="webmaseter" value="Adulto"/>Gastroenterologista<br />
+                <input type="checkbox" name="webmaseter" value="Idoso"/>Cardiologista<br />
+          
+                </fieldset>
+                <fieldset>
+                  <legend>DADOS ADICIONAIS</legend>
+                  <textarea>
+                  </textarea>
+                </fieldset>
+                
+                  <input type="reset"/>
+                <input type="submit"/>
+                </fieldset>
+                
+                  
+        </form>
+    </body>
+</html>

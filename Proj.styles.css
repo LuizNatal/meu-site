@@ -1,0 +1,233 @@
+body {
+    align-items: center;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    justify-content: center;
+    background: url(img/fundo.avif)
+  }
+  
+h2 {
+    color: #fff;
+    font-family: arial;
+  }
+
+span {
+  color: red;
+  font-family: arial;
+}
+  
+#maine-ft {
+    border-radius: 10px;
+    background-image: url(../Downloads/form.fundo.3.avif);
+    background-attachment: fixed;
+    background-position: 0px;
+    background-size: 100%;
+    box-shadow: 0 1px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 10px;
+    padding: 5px;
+    border: 5px solid white;
+  }
+
+label {
+    font-family: constantia;
+    color: #fff;
+
+}
+
+#letra {
+  color: black;
+}
+
+
+body {
+   background: none;
+}
+
+#maine-lz {
+  background: url(../Downloads/Ondas\ branco.svg) no-repeat;
+  background-attachment: fixed;
+  height: auto;
+}
+
+.text-gd {
+  font-size: 64px;
+}
+
+.text-md {
+  font-size: 36px;
+}
+
+.text-pq {
+  font-size: 14px;
+}
+
+.text-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Botao */
+
+button {
+  padding: 10px 20px;
+  background: red;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+button:hover {
+  border: 1px solid red;
+  background: #fff;
+  color: red;
+}
+
+#back-to-top-1 {
+  position: fixed;
+  bottom: 2px;
+  left: 10px;
+  padding: 5px 10px;
+  background: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#back-to-top-1:hover {
+  border: 1px solid red;
+  background: #fff;
+  color: red;
+}
+
+@media (max-width:768px) {
+  #maine-lz {
+    background: url(../Downloads/Ondas\ branco.svg) no-repeat;
+    background-attachment: fixed;
+    height: auto;
+  }
+
+  #back-to-top-1 {
+    position: fixed;
+    bottom: 1px;
+    left: 10px;
+    padding: 5px 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+}
+
+@media (max-width: 425px) {
+  .text-gd {
+    font-size: 64px;
+  }
+  
+  .text-md {
+    font-size: 24px;
+  }
+  
+  .text-pq {
+    font-size: 14px;
+  }
+  
+  .text-title {
+    font-size: 17px;
+  }
+
+  #back-to-top-1 {
+    position: fixed;
+    bottom: 1px;
+    left: 10px;
+    padding: 5px 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 14px;
+  }
+
+  #maine-lz {
+    background: url(../Downloads/Ondas\ branco.svg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .text-gd {
+    font-size: 64px;
+  }
+  
+  .text-md {
+    font-size: 20px;
+  }
+  
+  .text-pq {
+    font-size: 14px;
+  }
+  
+  .text-title {
+    font-size: 15px;
+  }
+
+  #back-to-top-1 {
+    position: fixed;
+    bottom: 1px;
+    left: 10px;
+    padding: 5px 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .text-gd {
+    font-size: 64px;
+  }
+  
+  .text-md {
+    font-size: 18px;
+  }
+  
+  .text-pq {
+    font-size: 14px;
+  }
+  
+  .text-title {
+    font-size: 14px;
+  }
+
+  #back-to-top-1 {
+    position: fixed;
+    bottom: 1px;
+    left: 10px;
+    padding: 5px 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 10px;
+  }
+}
+
+
+
